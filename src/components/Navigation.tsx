@@ -5,7 +5,7 @@ import { FaTiktok } from 'react-icons/fa'
 
 export default function Navigation() {
     return (
-        <Navbar bg="dark" variant="dark" style={{height: "5vh"}}>
+        <Navbar bg="dark" variant="dark">
             <Container>
                 <Navbar.Brand className="ml-auto" href="/">Arman Shah</Navbar.Brand>
                 <Nav className="me-auto">

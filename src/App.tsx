@@ -7,7 +7,7 @@ import Navigation from './components/Navigation'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{backgroundColor: "#343a40", height: "100vh"}}>
       <Navigation />
       <BrowserRouter>
         <Routes>
